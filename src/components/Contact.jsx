@@ -5,6 +5,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { Button } from "@mui/material";
 import { Email, LinkedIn, GitHub, ArrowOutward } from "@mui/icons-material";
+import Img from "../utils/images";
 
 const Contact = () => {
   return (
@@ -54,7 +55,7 @@ const Contact = () => {
           className="md:h-auto md:flex-1"
         >
           <img
-            src="../assets/contact.webp"
+            src={Img.contact}
             alt="contact-us"
             className="h-full w-full object-contain"
           />

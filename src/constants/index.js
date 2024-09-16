@@ -1,38 +1,4 @@
-// import {
-//   web,
-//   frontend,
-//   design,
-//   backend,
-//   fullStack,
-//   cloud,
-//   html,
-//   css,
-//   javascript,
-//   reactjs,
-//   formik,
-//   redux,
-//   mui,
-//   tailwind,
-//   scss,
-//   nodejs,
-//   expressjs,
-//   mongodb,
-//   mongoose,
-//   git,
-//   github,
-//   EC2,
-//   S3,
-//   vscode,
-//   ChatGPT,
-//   chrome,
-//   mongodbCompass,
-//   postman,
-//   ubuntu,
-//   Impress,
-//   e_commerce,
-//   proConnectup,
-//   portfolio,
-// } from "../assets";
+import Img from '../utils/images'
 
 const navLinks = [
   {
@@ -52,113 +18,113 @@ const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: "../assets/web.png",
+    icon: Img.web,
   },
   {
-    title: "React Developer",
-    icon: "../assets/frontend.png",
+    title: "Frontend Developer",
+    icon: Img.frontend,
   },
   {
     title: "Backend Developer",
-    icon: "../assets/backend.png",
+    icon: Img.backend,
   },
   {
     title: "Full Stack Developer",
-    icon: "../assets/fullStack.png",
+    icon: Img.fullstack,
   },
 ];
 
 const technologies = [
   {
     name: "HTML 5",
-    icon: "../assets/tech/html.png",
+    icon: Img.html,
   },
   {
     name: "CSS 3",
-    icon: "../assets/tech/css.png",
+    icon: Img.css,
   },
   {
     name: "JavaScript",
-    icon: "../assets/tech/javascript.png",
+    icon: Img.javascript,
   },
   {
     name: "Tailwind CSS",
-    icon: "../assets/tech/tailwind.png",
+    icon: Img.tailwind,
   },
   {
     name: "React JS",
-    icon: "../assets/tech/reactjs.png",
+    icon: Img.reactjs,
   },
   {
     name: "Redux",
-    icon: "../assets/tech/redux.png",
+    icon: Img.redux,
   },
   {
     name: "Formik",
-    icon: "../assets/tech/formik-icon.png",
+    icon: Img.formik,
   },
   {
     name: "Matirial UI",
-    icon: "../assets/tech/material-ui.png",
+    icon: Img.mui,
   },
   {
     name: "SCSS",
-    icon: "../assets/tech/scss.png",
+    icon: Img.scss,
   },
   {
     name: "Node JS",
-    icon: "../assets/tech/nodejs.png",
+    icon: Img.nodejs,
   },
   {
     name: "Express JS",
-    icon: "../assets/tech/expressjs.png",
+    icon: Img.expressjs,
   },
   {
     name: "MongoDB",
-    icon: "../assets/tech/mongodb.png",
+    icon: Img.mongodb,
   },
   {
     name: "Mongoose",
-    icon: "../assets/tech/mongoose.png",
+    icon: Img.mongoose,
   },
   {
     name: "Git",
-    icon: "../assets/tech/git.png",
+    icon: Img.git,
   },
   {
-    name: "GitHup",
-    icon: "../assets/github.png",
+    name: "GitHub",
+    icon: Img.github,
   },
   {
     name: "EC2",
-    icon: "../assets/tech/ec2.png",
+    icon: Img.ec2,
   },
   {
     name: "S3",
-    icon: "../assets/tech/Amazon-S3.png",
+    icon: Img.s3,
   },
 ];
 
 const tools = [
   {
     name: "VS Code",
-    icon: "../assets/tools/vscode.png",
+    icon: Img.vscode,
   },
   {
     name: "ChatGPT",
-    icon: "../assets/tools/ChatGPT.png",
+    icon: Img.chatgpt,
   },
   {
     name: "Mongodb Compass",
-    icon: "../assets/tools/mongodbCompass.png",
+    icon: Img.mongodbcompass,
   },
   {
     name: "Postman",
-    icon: "../assets/tools/postman.png",
+    icon: Img.postman,
   },
   {
     name: "Ubuntu",
-    icon: "../assets/tools/ubuntu.png",
+    icon: Img.ubuntu,
   },
 ];
 
@@ -166,8 +132,8 @@ const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "Nearpod",
-    icon: "../assets/company/nearpod.png",
-    iconBg: "#383E56",
+    icon: Img.nearpod,
+    iconBg: "white",
     date: "October 2021 - Present",
     points: [
       "Led the full-stack development of an Interactive Learning Platform using React, Next.js, Node.js, PostgreSQL, and RESTful APIs, resulting in a 35% increase in student engagement.",
@@ -186,7 +152,7 @@ const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "Headspring",
-    icon: "../assets/company/headspring.jpg",
+    icon: Img.headspring,
     iconBg: "white",
     date: "April 2016 - October 2021",
     points: [
@@ -204,8 +170,8 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Southwest Airlines",
-    icon: "../assets/company/southwest.jpg",
-    iconBg: "#383E56",
+    icon: Img.southwest,
+    iconBg: "white",
     date: "April 2015 - April 2016",
     points: [
       "Integrated back-end services using ASP.NET and RESTful APIs, enabling seamless data exchange between the front-end and server, which improved application performance and reliability.",
@@ -216,8 +182,8 @@ const experiences = [
   {
     title: "Front End Developer",
     company_name: "Southwest Airlines",
-    icon: "../assets/company/southwest.jpg",
-    iconBg: "#383E56",
+    icon: Img.southwest,
+    iconBg: "white",
     date: "June 2011 - April 2015",
     points: [
       "Led the development of responsive web applications using HTML, CSS, AngularJS, and Bootstrap, enhancing user experience across multiple devices and increasing mobile traffic.",
@@ -230,8 +196,8 @@ const experiences = [
   {
     title: "Web Developer Intern",
     company_name: "Softway",
-    icon: "../assets/company/softway.jpg",
-    iconBg: "black",
+    icon: Img.softway,
+    iconBg: "white",
     date: "June 2009 - May 2011",
     points: [
       "Built responsive websites using Angular, HTML, CSS, JavaScript, and Bootstrap, making them look good on all devices.",
@@ -250,7 +216,7 @@ const testimonials = [
     name: "Daniel Ekwevi",
     designation: "CEO",
     company: "Curbco",
-    image: "../assets/feedback/daniel.jpg",
+    image: Img.daniel,
   },
   {
     testimonial:
@@ -266,7 +232,7 @@ const testimonials = [
     name: "Tom Merritt",
     designation: "CFO",
     company: "Southwest Airlines",
-    image: "../assets/feedback/tom.jpg",
+    image: Img.tom,
   },
 ];
 
@@ -290,15 +256,15 @@ const projects = [
       },
     ],
     image:
-      "../assets/project/portfolio.png",
+      Img.portfolio,
     alt: "Portfolio",
-    source_code_link: "https://github.com/talent-dev216/portfolio",
+    source_code_link: "https://github.com/talent-dev216/my-portfolio",
     live_link: "https://richard-portfolio.web.app/",
   },
   {
     name: "E-Commerce Platform",
     description:
-      "A web-based platform that allows users to search, and order products. admin can manage products, orders, reviews, and users. Providing a convenient and efficient solution for people who need the best online shopping experience.",
+      "A web-based platform that allows users to search, and order products. admin can manage products, orders, reviews, and users. Providing a convenient and efficient solution for people.",
     tags: [
       {
         name: "React",
@@ -318,7 +284,7 @@ const projects = [
       },
     ],
     image:
-      "../assets/project/e-commerce.png",
+      Img.e_commerce,
     alt: "E-Commerce",
     source_code_link: "https://github.com/talet-dev216/e-commerce",
     live_link: "https://github.com/talet-dev216/e-commerce",
@@ -326,7 +292,7 @@ const projects = [
   {
     name: "HR Management System",
     description:
-      "A web application that enables users to find people with the same interest in their career, find a person for freelance work, search for job openings, and locate available jobs based on their current location.",
+      "An essential tool for businesses looking to enhance their HR operations. It automates tasks like payroll, attendance tracking, employee performance reviews, and recruitment.",
     tags: [
       {
         name: "MERN",
@@ -342,7 +308,7 @@ const projects = [
       },
     ],
     image:
-      "../assets/project/hrms.jpg",
+      Img.hrms,
     alt: "HR Management System",
 
     source_code_link: "https://github.com/talent-dev216/hr-management-system",

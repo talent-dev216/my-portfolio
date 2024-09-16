@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import Img from '../utils/images'
 
 const ProjectCard = ({
   index,
@@ -31,7 +32,7 @@ const ProjectCard = ({
               className="black-gradient mr-1 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
             >
               <img
-                src="https://rajesh-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/webLink.png"
+                src={Img.weblink}
                 alt="live link"
                 className="h-full w-full rounded-full  object-contain"
               />
@@ -41,7 +42,7 @@ const ProjectCard = ({
               className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
             >
               <img
-                src="https://rajesh-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/github.png"
+                src={Img.github}
                 alt="source code"
                 className="h-3/4 w-3/4 object-contain"
               />
