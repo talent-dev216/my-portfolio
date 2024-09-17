@@ -48,28 +48,60 @@ const technologies = [
     icon: Img.javascript,
   },
   {
+    name: "TypeScript",
+    icon: Img.typescript,
+  },
+  {
+    name: "SCSS",
+    icon: Img.scss,
+  },
+  {
     name: "Tailwind CSS",
     icon: Img.tailwind,
   },
   {
-    name: "React JS",
+    name: "Material UI",
+    icon: Img.mui,
+  },
+  {
+    name: "Ant Design",
+    icon: Img.antdesign,
+  },
+  {
+    name: "Bootstrap",
+    icon: Img.bootstrap,
+  },
+  {
+    name: "React",
     icon: Img.reactjs,
+  },
+  {
+    name: "Angular",
+    icon: Img.angular,
+  },
+  {
+    name: "Vue",
+    icon: Img.vue,
+  },
+  {
+    name: "React Native",
+    icon: Img.reactnative,
+  },
+  {
+    name: "Next JS",
+    icon: Img.nextjs,
   },
   {
     name: "Redux",
     icon: Img.redux,
   },
   {
+    name: "JQuery",
+    icon: Img.jquery,
+  },
+  {
     name: "Formik",
     icon: Img.formik,
-  },
-  {
-    name: "Matirial UI",
-    icon: Img.mui,
-  },
-  {
-    name: "SCSS",
-    icon: Img.scss,
   },
   {
     name: "Node JS",
@@ -80,6 +112,10 @@ const technologies = [
     icon: Img.expressjs,
   },
   {
+    name: "ASP.NET",
+    icon: Img.asp,
+  },
+  {
     name: "MongoDB",
     icon: Img.mongodb,
   },
@@ -88,20 +124,36 @@ const technologies = [
     icon: Img.mongoose,
   },
   {
-    name: "Git",
-    icon: Img.git,
+    name: "MySQL",
+    icon: Img.mysql,
+  },
+  {
+    name: "PostgreSQL",
+    icon: Img.postgresql,
+  },
+  {
+    name: "GraphQL",
+    icon: Img.graphql,
+  },
+  {
+    name: "RESTful APIs",
+    icon: Img.restapi,
+  },
+  {
+    name: "React Testing Library",
+    icon: Img.reacttest,
+  },
+  {
+    name: "Jest",
+    icon: Img.jest,
+  },
+  {
+    name: "Cypress",
+    icon: Img.cypress,
   },
   {
     name: "GitHub",
     icon: Img.github,
-  },
-  {
-    name: "EC2",
-    icon: Img.ec2,
-  },
-  {
-    name: "S3",
-    icon: Img.s3,
   },
 ];
 
@@ -123,8 +175,36 @@ const tools = [
     icon: Img.postman,
   },
   {
-    name: "Ubuntu",
-    icon: Img.ubuntu,
+    name: "AWS Lambda",
+    icon: Img.lambda,
+  },
+  {
+    name: "AWS EC2",
+    icon: Img.ec2,
+  },
+  {
+    name: "AWS S3",
+    icon: Img.s3,
+  },
+  {
+    name: "Docker",
+    icon: Img.docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: Img.kubernetes,
+  },
+  {
+    name: "Jenkins",
+    icon: Img.jenkins,
+  },
+  {
+    name: "Git",
+    icon: Img.git,
+  },
+  {
+    name: "Jira",
+    icon: Img.jira,
   },
 ];
 

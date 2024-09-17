@@ -5,9 +5,7 @@ import fullstack from '../assets/fullStack.png'
 import github from '../assets/github.png'
 import weblink from '../assets/webLink.png'
 
-import s3 from '../assets/tech/Amazon-S3.png'
 import css from '../assets/tech/css.png'
-import ec2 from '../assets/tech/ec2.png'
 import expressjs from '../assets/tech/expressjs.png'
 import formik from '../assets/tech/formik-icon.png'
 import git from '../assets/tech/git.png'
@@ -21,12 +19,35 @@ import reactjs from '../assets/tech/reactjs.png'
 import redux from '../assets/tech/redux.png'
 import scss from '../assets/tech/scss.png'
 import tailwind from '../assets/tech/tailwind.png'
+import angular from '../assets/tech/angular.png'
+import antdesign from '../assets/tech/antdesign.png'
+import asp from '../assets/tech/asp.png'
+import bootstrap from '../assets/tech/bootstrap.jpg'
+import cypress from '../assets/tech/cypress.png'
+import graphql from '../assets/tech/graphql.png'
+import jest from '../assets/tech/jest.png'
+import jquery from '../assets/tech/jquery.png'
+import mysql from '../assets/tech/mysql.png'
+import nextjs from '../assets/tech/nextjs.png'
+import postgresql from '../assets/tech/postgresql.png'
+import reactnative from '../assets/tech/reactnative.png'
+import reacttest from '../assets/tech/reacttest.png'
+import restapi from '../assets/tech/restapi.png'
+import typescript from '../assets/tech/typescript.png'
+import vue from '../assets/tech/vue.png'
 
 import chatgpt from '../assets/tools/ChatGPT.png'
 import mongodbcompass from '../assets/tools/mongodbCompass.png'
 import postman from '../assets/tools/postman.png'
 import ubuntu from '../assets/tools/ubuntu.png'
 import vscode from '../assets/tools/vscode.png'
+import ec2 from '../assets/tools/ec2.png'
+import s3 from '../assets/tools/Amazon-S3.png'
+import docker from '../assets/tools/docker.png'
+import jenkins from '../assets/tools/jenkins.png'
+import jira from '../assets/tools/jira.png'
+import kubernetes from '../assets/tools/kubernetes.png'
+import lambda from '../assets/tools/lambda.png'
 
 import headspring from '../assets/company/headspring.jpg'
 import nearpod from '../assets/company/nearpod.png'
@@ -51,9 +72,7 @@ const Img = {
     github : github,
     weblink : weblink,
     //skills
-    s3 : s3,
     css : css,
-    ec2 : ec2,
     expressjs : expressjs,
     formik : formik,
     git : git,
@@ -67,12 +86,35 @@ const Img = {
     redux : redux,
     scss : scss,
     tailwind : tailwind,
+    typescript : typescript,
+    antdesign : antdesign,
+    bootstrap : bootstrap,
+    angular : angular,
+    vue : vue,
+    reactnative : reactnative,
+    nextjs : nextjs,
+    jquery : jquery,
+    asp : asp,
+    mysql : mysql,
+    postgresql : postgresql,
+    graphql : graphql,
+    restapi : restapi,
+    reacttest : reacttest,
+    jest : jest,
+    cypress : cypress,
     //tools
     chatgpt : chatgpt,
     mongodbcompass : mongodbcompass,
     postman : postman,
     ubuntu : ubuntu,
     vscode : vscode,
+    s3 : s3,
+    ec2 : ec2,
+    lambda : lambda,
+    docker : docker,
+    kubernetes : kubernetes,
+    jenkins : jenkins,
+    jira : jira,
     //company
     headspring : headspring,
     nearpod : nearpod,
