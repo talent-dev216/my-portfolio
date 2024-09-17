@@ -4,7 +4,8 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { Button } from "@mui/material";
-import { Email, LinkedIn, GitHub, ArrowOutward } from "@mui/icons-material";
+import { Email, LinkedIn, GitHub } from "@mui/icons-material";
+import { FaDiscord, FaTelegramPlane } from 'react-icons/fa';
 import Img from "../utils/images";
 
 const Contact = () => {
@@ -44,6 +45,28 @@ const Contact = () => {
               >
                 <Button variant="outlined" endIcon={<GitHub />}>
                   GitHub
+                </Button>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://discord.com/users/talentdev_"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outlined" endIcon={<FaDiscord />}>
+                  Discord
+                </Button>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://t.me/richardcheung1216"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outlined" endIcon={<FaTelegramPlane />}>
+                  Telegram
                 </Button>
               </a>
             </div>

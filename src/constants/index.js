@@ -327,7 +327,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Tailwind CSS",
+        name: "Material UI",
         color: "green-text-gradient",
       },
       {
@@ -366,8 +366,8 @@ const projects = [
     image:
       Img.e_commerce,
     alt: "E-Commerce",
-    source_code_link: "https://github.com/talet-dev216/e-commerce",
-    live_link: "https://github.com/talet-dev216/e-commerce",
+    source_code_link: "https://github.com/talent-dev216/e-commerce",
+    live_link: "https://github.com/talent-dev216/e-commerce",
   },
   {
     name: "HR Management System",
@@ -383,7 +383,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Material UI",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
