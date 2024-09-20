@@ -28,7 +28,7 @@ const Contact = () => {
             </div>
             <div>
               <a
-                href="https://www.linkedin.com/in/richard-p-09b86724a"
+                href="https://www.linkedin.com/in/richard-cheung-aa11a832a"
                 target="_blank"
                 rel="noopener noreferrer"
               >
