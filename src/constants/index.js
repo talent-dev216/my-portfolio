@@ -231,7 +231,7 @@ const experiences = [
   },
   {
     title: "Senior Software Engineer",
-    company_name: "Headspring",
+    company_name: "Headspring (Part of Accenture)",
     icon: Img.headspring,
     iconBg: "white",
     date: "April 2016 - October 2021",
@@ -339,7 +339,7 @@ const projects = [
       Img.portfolio,
     alt: "Portfolio",
     source_code_link: "https://github.com/talent-dev216/my-portfolio",
-    live_link: "https://richard-portfolio.web.app/",
+    live_link: "https://white-snow.netlify.app/",
   },
   {
     name: "E-Commerce Platform",
@@ -367,7 +367,6 @@ const projects = [
       Img.e_commerce,
     alt: "E-Commerce",
     source_code_link: "https://github.com/talent-dev216/e-commerce",
-    live_link: "https://github.com/talent-dev216/e-commerce",
   },
   {
     name: "HR Management System",
@@ -390,9 +389,126 @@ const projects = [
     image:
       Img.hrms,
     alt: "HR Management System",
-
     source_code_link: "https://github.com/talent-dev216/hr-management-system",
-    live_link: "https://github.com/talent-dev216/hr-management-system",
+  },
+  {
+    name: "Learning Platform",
+    description:
+      "Nearpod is a digital learning platform that helps teachers create interactive presentations and lessons for the classroom includes Nearpod Lesson Builder, Nearpod Library Search and so on.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image:
+      Img.learningplatform,
+    alt: "Learning Platform",
+    live_link: "https://www.nearpod.com/",
+  },
+  {
+    name: "SIM Sytem",
+    description:
+      "A smart inventory management system uses data to help businesses manage their inventory more efficiently. Reduce costs, Improve customer service, Increase efficiency, Increase profitability.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Native",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      Img.sim,
+    alt: "SIM System",
+    live_link: "https://www.inflowinventory.com/",
+  },
+  {
+    name: "CRM System",
+    description:
+      "Customer Relationship Management System is a software system that helps companies manage and analyze their interactions with customers to improve relationships and grow their business.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      Img.crm,
+    alt: "CRM System",
+    live_link: "https://headspring.com/",
+  },
+  {
+    name: "Airline Booking Site",
+    description:
+      "The Southwest Airlines site is a site that allows users to book one-way or roundtrip flights for up to eight passengers at a time. Also apply a flight credit, check the balance on a flight credit and more.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ASP.NET",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      Img.airline,
+    alt: "Airline Booking Site",
+    live_link: "https://www.southwest.com/",
+  },
+  {
+    name: "Data Visualization",
+    description:
+      "Graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "green-text-gradient",
+      },
+      {
+        name: "REST Api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:
+      Img.dvs,
+    alt: "Data Visualization System",
+    live_link: "https://public.tableau.com/app/search/vizzes/%23SouthwestAirlines",
   },
 ];
 

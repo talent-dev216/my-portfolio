@@ -20,7 +20,7 @@ const Contact = () => {
           <h3 className={styles.sectionHeadText}>Contact</h3>
           <div className="flex-center-center mt-8 flex-wrap gap-2">
             <div>
-              <a href="mailto:talent.dev0216@gmail.com">
+              <a href="mailto:white.snow.dev216@gmail.com">
                 <Button variant="outlined" endIcon={<Email />}>
                   Email
                 </Button>

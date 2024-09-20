@@ -57,6 +57,11 @@ import southwest from '../assets/company/southwest.jpg'
 import e_commerce from '../assets/project/e-commerce.jpg'
 import hrms from '../assets/project/hrms.jpg'
 import portfolio from '../assets/project/portfolio.png'
+import crm from '../assets/project/crm.jpg'
+import dvs from '../assets/project/dvs.jpg'
+import airline from '../assets/project/airline.jpg'
+import sim from '../assets/project/sim.jpg'
+import learningplatform from '../assets/project/learningplatform.jpg'
 
 import daniel from '../assets/feedback/daniel.jpg'
 import tom from '../assets/feedback/tom.jpg'
@@ -124,6 +129,11 @@ const Img = {
     e_commerce : e_commerce,
     hrms : hrms,
     portfolio : portfolio,
+    crm : crm,
+    dvs : dvs,
+    airline : airline,
+    learningplatform : learningplatform,
+    sim : sim,
     //feedback
     daniel : daniel,
     tom : tom,
