@@ -214,7 +214,7 @@ const experiences = [
     company_name: "Nearpod",
     icon: Img.nearpod,
     iconBg: "white",
-    date: "October 2021 - August 2024",
+    date: "October 2021 - September 2024",
     points: [
       "Led the full-stack development of an Interactive Learning Platform using React, Next.js, Node.js, PostgreSQL, and RESTful APIs, resulting in a 35% increase in student engagement.",
       "Developed a responsive and intuitive user interface with React, SASS, and Tailwind CSS, enhancing user experience and increasing user satisfaction.",
